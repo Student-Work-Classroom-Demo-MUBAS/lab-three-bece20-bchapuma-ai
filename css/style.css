@@ -1,3 +1,10 @@
+/* ALWAYS add this at the top of every CSS file */
+/* Makes padding and border INCLUDED in the element's width */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
 /* Smooth scroll when clicking nav links */
 html {
   scroll-behavior: smooth;
@@ -59,4 +66,22 @@ h1 {
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   font-size: 0.8rem;
+}
+
+.box-demo {
+  /* CONTENT — the declared width and height */
+  width: 300px;
+  height: 150px;
+
+  /* PADDING — space INSIDE the border (push content inward) */
+  padding: 20px;
+
+  /* BORDER — the visible outline */
+  border: 2px solid #1E2761;
+  border-radius: 8px;
+
+  /* MARGIN — space OUTSIDE the border (push away from neighbours) */
+  margin: 1rem auto;
+
+  background-color: #F0F4FF;
 }
