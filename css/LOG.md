@@ -2,7 +2,7 @@
 **Student Name:** Ben Chapuma
 **Student ID:** BECE/20/SS/003
 **Date:** 08/23/2026
-**Lab Session:** 1:30AM - 3:00AM
+**Lab Session:** 1:30AM - 4:00AM
 
 ## Testing out CSS rules
 
@@ -45,3 +45,23 @@ since it is more specific that the 'class' rule.
 **Screenshot location:** 
 images/textcolor.png
 
+
+## Error 1
+**Task I was working on:** Task 1
+**What I was trying to do:**
+I was trying to push my local changes to the remote repository
+**The exact error or problem I saw:**
+An error telling me that I was trying to merge and push my changes before pulling the current state of remote main.
+It also refused to merge the two unrelated histories. Check '/images/merge_error.png'
+**Steps I took to fix it:**
+1.Added allow unrelated histories command
+2.Run the prompt again
+3.The changes were succesfully pulled from remote and it was time to try and commit the local changes to the remote repository
+4.Logged the error first
+**What I learned from this:**
+It is always good to perform a git pull first before trying to push local changes to main - avoids merge issues!
+
+---
+## Session Reflection
+**The concept I found hardest to understand today:**
+**The moment it clicked (if it did):**
