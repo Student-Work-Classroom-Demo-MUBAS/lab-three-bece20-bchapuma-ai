@@ -1,12 +1,38 @@
-body{
-    background-color: whitesmoke;
+/* Smooth scroll when clicking nav links */
+html {
+  scroll-behavior: smooth;
 }
 
-.intro{
-    color: blue;
+/* DESCENDANT selector — every li inside nav, no matter how nested */
+nav li {
+  list-style: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 1.3rem;
 }
 
-#hero{
-    color: red;
+/* CHILD selector — only the ul that is a DIRECT child of nav */
+nav > ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
 }
 
+/* "Bold links inside nav, no underline, no class/id used */
+nav a {
+  font-weight: bold;       /*makes the links bold*/
+  text-decoration: none;   /* removes underline from links */
+}
+
+/* ADJACENT SIBLING — only the FIRST p immediately after each h2 */
+h2 + p {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+/*For the h1 element containing my name*/
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 2rem;
+}
