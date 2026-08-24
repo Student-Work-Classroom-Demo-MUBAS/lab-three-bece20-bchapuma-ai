@@ -64,4 +64,8 @@ It is always good to perform a git pull first before trying to push local change
 ---
 ## Session Reflection
 **The concept I found hardest to understand today:**
+The setting of the rays in the flag and making the look like red crosses passing through the red sun
 **The moment it clicked (if it did):**
+Understood how the translate and linear gradient works in order to achieve such a look.
+**Screenshot location:**
+images/flag_screenshot
